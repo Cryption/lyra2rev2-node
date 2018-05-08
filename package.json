@@ -1,6 +1,6 @@
 {
   "name": "lyra2rev2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lyra2rev2 in nodejs",
   "main": "index.js",
   "dependencies": {
@@ -9,11 +9,19 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"install": "go get github.com/bitgoin/lyra2rev2"
+    "install": "go get github.com/bitgoin/lyra2rev2"
   },
   "author": "Dillon DuPont",
   "license": "ISC",
   "keywords": [
     "lyra"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cryption/lyra2rev2-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cryption/lyra2rev2-node/issues"
+  },
+  "homepage": "https://github.com/Cryption/lyra2rev2-node#readme"
 }

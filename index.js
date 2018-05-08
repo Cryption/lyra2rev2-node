@@ -1,7 +1,7 @@
 var Go = require('gonode').Go;
 
 var go = new Go({
-    path		: 'lyra2rev2.go',
+    path		: './node_modules/lyra2rev2/lyra2rev2.go',
     initAtOnce	: true,	
 }, function(err) {
     if (err) throw err;
