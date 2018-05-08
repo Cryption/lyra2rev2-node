@@ -42,7 +42,7 @@ class lyra2rev2 extends EventEmitter {
 				} else if(result.terminated) {
 					reject("Terminated");
 				}
-			}, {commandTimeoutSec: 30});
+			}, {commandTimeoutSec: 60});
 		});
 	}
 }

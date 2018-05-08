@@ -1,6 +1,6 @@
 {
   "name": "lyra2rev2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "lyra2rev2 in nodejs",
   "main": "index.js",
   "dependencies": {
@@ -14,7 +14,11 @@
   "author": "Dillon DuPont",
   "license": "ISC",
   "keywords": [
-    "lyra"
+    "lyra2rev2",
+    "lyra2v2",
+    "hash",
+    "pow",
+    "proof-of-work"
   ],
   "repository": {
     "type": "git",
