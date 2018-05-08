@@ -1,0 +1,19 @@
+{
+  "name": "lyra2rev2",
+  "version": "1.0.0",
+  "description": "lyra2rev2 in nodejs",
+  "main": "index.js",
+  "dependencies": {
+    "gonode": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"install": "go get github.com/bitgoin/lyra2rev2"
+  },
+  "author": "Dillon DuPont",
+  "license": "ISC",
+  "keywords": [
+    "lyra"
+  ]
+}
