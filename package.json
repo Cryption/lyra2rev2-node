@@ -1,6 +1,6 @@
 {
   "name": "lyra2rev2",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "lyra2rev2 in nodejs",
   "main": "index.js",
   "dependencies": {
