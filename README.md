@@ -6,18 +6,22 @@ lyra2rev2.go wrapper for nodejs
 
 ```JavaScript
 var lyra2rev2 = require('lyra2rev2');
-
-lyra2rev2(Buffer.from("hello, world!")).then(function(result) {
-	console.log(result.toString('hex'));
-});;
+ 
+lyra2rev2.on('ready', () => {
+	lyra2rev2.hash(Buffer.from("hello, world!")).then(function(result) {
+		console.log(result.toString('hex'));
+	});;
+});
 ```
 
-=======
 
 ## async/await
 
 ```JavaScript
-
-console.log((await lyra2rev2(Buffer.from("hello, world!"))).toString('hex'));
+var lyra2rev2 = require('lyra2rev2');
+ 
+lyra2rev2.on('ready', async () => {
+	console.log((await lyra2rev2.hash(Buffer.from("hello, world!"))).toString('hex'));
+});
 
 ```
